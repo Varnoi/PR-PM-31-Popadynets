@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>pr12</title>
+</head>
+
+<body>
+	<h1>Практична робота №12 Попадинець Дмитро</h1>
+
+
+	<form id="userForm">
+		<label for="username">Ім’я користувача:</label>
+		<input type="text" id="username" name="username" required><br>
+
+		<label for="email">Електронна пошта:</label>
+		<input type="email" id="email" name="email" required><br>
+
+		<label>Оберіть прийоми їжі:</label><br>
+		<input type="radio" id="breakfast" name="meal" value="сніданок">
+		<label for="breakfast">Сніданок</label><br>
+		<input type="radio" id="lunch" name="meal" value="обід">
+		<label for="lunch">Обід</label><br>
+		<input type="radio" id="dinner" name="meal" value="вечеря">
+		<label for="dinner">Вечеря</label><br>
+
+		<label>Оберіть страви:</label><br>
+		<input type="checkbox" id="borshch" name="dish" value="борщ">
+		<label for="borsh">Борщ</label><br>
+
+		<input type="checkbox" id="kasha_vivsyana" name="dish" value="каша">
+		<label for="kasha">Каша</label><br>
+
+		<input type="checkbox" id="pasta" name="dish" value="макарони">
+		<label for="pasta">Макарони</label><br>
+
+		<input type="checkbox" id="pizza" name="dish" value="піцу">
+		<label for="pizza">Піца</label><br>
+
+		<input type="checkbox" id="shashlyk" name="dish" value="крилишка">
+		<label for="kyrka">Крилишка</label><br>
+
+		<label for="comment">Коментар:</label><br>
+		<textarea id="comment" name="comment" rows="4" cols="50"></textarea><br>
+
+		<button type="button" id="1">Надіслати</button>
+	</form>
+
+	<div id="output"></div>
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
